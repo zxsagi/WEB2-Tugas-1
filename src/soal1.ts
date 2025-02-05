@@ -1,6 +1,6 @@
 function countingValleys(steps: number, path: string): number {
-    let level: number = 0;
-    let valleys: number = 0;
+    let level = 0;
+    let valleys = 0;
 
     for (let i = 0; i < steps; i++) {
         if (path[i] === 'U') {
@@ -17,6 +17,6 @@ function countingValleys(steps: number, path: string): number {
 }
 
 // Contoh penggunaan
-const steps: number = 8;
-const path: string = "UDDDUDUU";
-console.log(countingValleys(steps, path));  // Output: 1
+const steps = 8;
+const path = "UDDDUDUU";
+console.log(countingValleys(steps, path));  
